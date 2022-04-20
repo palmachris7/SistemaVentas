@@ -36,7 +36,7 @@
                             </div>
                             <!--DATOS DEL PRODUCTO-->
                             <div class="form-group">
-                                <label>Datos Producto</label>
+                                <label>Datos Prenda</label>
                             </div>
                             <div class="form-group d-flex">
                                 <div class="col-sm-6 d-flex">

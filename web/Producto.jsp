@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <form action="Controlador?menu=Producto" method="POST">
                             <div class="form-group">
-                                <label>Producto</label>
+                                <label>Prenda</label>
                                 <input type="text" value="${producto.getNom()}" name="txtDni" class="form-control">
                             </div>
                             <div class="form-group">
