@@ -50,10 +50,10 @@ CREATE TABLE `producto` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 INSERT INTO `producto` (`IdProducto`, `Nombres`, `Precio`, `Stock`, `Estado`) VALUES
-(1, 'Teclado Logitech 345 Editado', 150, 99, '1'),
-(2, 'Mouse Logitech 567', 20, 98, '1'),
-(3, 'Laptop Lenovo Ideapad 520', 800, 100, '1'),
-(4, 'HeadPhones Sony M333', 500, 98, '1'),
+(1, 'Camisa a cuadros', 150, 99, '1'),
+(2, 'Camisa 567', 20, 98, '1'),
+(3, 'Camisa Gamusada', 800, 100, '1'),
+(4, 'Camisa  M333', 500, 98, '1'),
 (7, 'Producto Nuevo w', 22, 35, '1');
 -- --------------------------------------------------------
 CREATE TABLE `ventas` (
