@@ -20,10 +20,10 @@
       <li>
         <a href="#">
           <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
+          <span class="link_name"href="Controlador?menu=Empleado&accion=Listar">Productos</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="Controlador?menu=Producto&accion=Listar">Category</a></li>
+          <li><a href="Controlador?menu=Empleado&accion=Listar">Productos</a></li>
         </ul>
       </li>
       <li>
@@ -36,7 +36,7 @@
         </div>
         <ul class="sub-menu">
           <li><a class="link_name" href="#">Category</a></li>
-          <li><a href="Controlador?menu=Producto&accion=Listar">HTML & CSS</a></li>
+          <li><a href="Controlador?menu=Producto&accion=Listar"target="myFrame">Productos</a></li>
           <li><a href="#">JavaScript</a></li>
           <li><a href="#">PHP & MySQL</a></li>
         </ul>

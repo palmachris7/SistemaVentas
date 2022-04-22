@@ -15,10 +15,10 @@ INSERT INTO `cliente` (`IdCliente`, `Dni`, `Nombres`, `Direccion`, `Estado`) VAL
 (17, '2', 'Juan Guerrero Solis', 'Los Alamos', '1'),
 (18, '1', 'Maria Rosas Villanueva', 'Los Laureles 234', '1'),
 (19, '3', 'Andres de Santa Cruz', 'Av. La Frontera 347', '1'),
-(20, '4', 'Andres Mendoza', 'Chosica, Lurigancho', '1');
+(20, '4', 'Andres Mendoza', 'Chosica, Lurigancho', '0');
 -- --------------------------------------------------------
 CREATE TABLE `detalle_ventas` (
-  `IdDetalleVentas` int(11) UNSIGNED NOT NULL,
+  `IdDetalleVentas` int(11) UNSIGNED NOT NULL,x
   `IdVentas` int(11) UNSIGNED NOT NULL,
   `IdProducto` int(11) UNSIGNED NOT NULL,
   `Cantidad` int(11) UNSIGNED DEFAULT NULL,
