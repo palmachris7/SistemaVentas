@@ -11,12 +11,13 @@ public class Conexion {
 
     String url="jdbc:mysql://localhost:3306/bd_ventas";
     String user="root";
-    String pass="";
+    String pass="alex14";
     public Connection Conexion(){
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con=DriverManager.getConnection(url,user,pass);
         } catch (Exception e) {
+            System.out.println("config.Conexion.Conexion()");
         }
         return con;
     }
