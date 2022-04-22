@@ -9,8 +9,8 @@
     <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
+   
 <body>
-    
   <div class="sidebar close">
     <div class="logo-details">
       <i class='bx bxl-c-plus-plus'></i>
@@ -131,10 +131,11 @@
 </ul>
   </div>
     
+    
   <section class="home-section">
     <div class="home-content">
       <i class='bx bx-menu' ></i>
-      <span class="text">Drop Down Sidebar</span>
+      
     </div>
   </section>
 
