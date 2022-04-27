@@ -120,11 +120,11 @@
         <li>
             <div class="profile-details">
               <div class="profile-content">
-                <img src="image/profile.jpg" alt="profileImg">
+                <!--<img src="image/profile.jpg" alt="profileImg">-->
               </div>
               <div class="name-job">
-                <div class="profile_name">Prem Shahi</div>
-                <div class="job">Web Desginer</div>
+                <div class="profile_name">Bienvenido</div>
+                <div class="job">${usuario.getUser()}</div>
               </div>
               <i class='bx bx-log-out' ></i>
             </div>

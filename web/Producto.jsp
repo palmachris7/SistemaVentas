@@ -24,57 +24,7 @@
           <span class="logo_name">Sistema Ventas </span>
         </div>
         <ul class="nav-links">
-        <!-- 
-      <li>
-        <a href="#">
-          <i class='bx bx-grid-alt' ></i>
-          <span class="link_name">Dashboard</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="Controlador?menu=Producto&accion=Listar">Category</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-          <a href="#">
-            <i class='bx bx-collection' ></i>
-            <span class="link_name">Category</span>
-          </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="#">Category</a></li>
-          <li><a href="Controlador?menu=Producto&accion=Listar">HTML & CSS</a></li>
-          <li><a href="#">JavaScript</a></li>
-          <li><a href="#">PHP & MySQL</a></li>
-        </ul>
-      </li>
-      <li>
-        <div class="iocn-link">
-          <a href="#">
-            <i class='bx bx-book-alt' ></i>
-            <span class="link_name">Posts</span>
-          </a>
-          <i class='bx bxs-chevron-down arrow' ></i>
-        </div>
-        <ul class="sub-menu">
-          <li><a class="link_name" href="#">Posts</a></li>
-          <li><a href="#">Web Design</a></li>
-          <li><a href="#">Login Form</a></li>
-          <li><a href="#">Card Design</a></li>
-        </ul>
-      </li>
-      <li>
-        <a href="#">
-          <i class='bx bx-pie-chart-alt-2' ></i>
-          <span class="link_name">Analytics</span>
-        </a>
-        <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Analytics</a></li>
-        </ul>
-      </li>
-      
-      -->
+   
       <li>
         <a href="Controlador?menu=Producto&accion=Listar">
           <i class="bx bx-grid-alt"></i>
@@ -116,11 +66,11 @@
         <li>
             <div class="profile-details">
               <div class="profile-content">
-                <img src="image/profile.jpg" alt="profileImg">
+<!--                <img src="image/profile.jpg" alt="profileImg">-->
               </div>
               <div class="name-job">
-                <div class="profile_name">Prem Shahi</div>
-                <div class="job">Web Desginer</div>
+                <div class="profile_name">Bienvenido</div>
+                <div class="job">${usuario.getUser()}</div>
               </div>
               <i class='bx bx-log-out' ></i>
             </div>
