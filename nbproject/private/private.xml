@@ -3,9 +3,18 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/Users/palmachris7/Proyects/Sistema-de-Ventas%20Palma/web/RegistrarVenta.jsp</file>
             <file>file:/Users/palmachris7/Proyects/Sistema-de-Ventas%20Palma/web/index.jsp</file>
             <file>file:/Users/palmachris7/Proyects/Sistema-de-Ventas%20Palma/web/Principal.jsp</file>
+=======
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/Producto.jsp</file>
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/Empleado.jsp</file>
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/index.jsp</file>
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/vendor/fonts/icon-font.min.css</file>
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/script.js</file>
+            <file>file:/C:/Users/Alex/Desktop/Proyectos_idat/SistemaVentas/web/Clientes.jsp</file>
+>>>>>>> d04f66f688d1b4e9bc0000c495f1b52b5d99f2fa
         </group>
     </open-files>
 </project-private>
