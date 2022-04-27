@@ -1,6 +1,6 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="UTF-8">
     <title> Menu Principal </title>
@@ -66,12 +66,12 @@
         </ul>
       </li>
       <li>
-        <a href="#">
+        <a href="Controlador?menu=Producto&accion=Listar">
           <i class='bx bx-line-chart' ></i>
-          <span class="link_name">Chart</span>
+          <span class="link_name">Productos</span>
         </a>
         <ul class="sub-menu blank">
-          <li><a class="link_name" href="#">Chart</a></li>
+          <li><a class="link_name">Productos</a></li>
         </ul>
       </li>
       <li>
@@ -136,6 +136,9 @@
       <i class='bx bx-menu' ></i>
       <span class="text">Drop Down Sidebar</span>
     </div>
+      <div class="wrappers" id="Prod">
+          
+      </div>
   </section>
 
   <script src="script.js"></script>
